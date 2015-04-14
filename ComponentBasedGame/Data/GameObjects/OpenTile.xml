@@ -1,0 +1,10 @@
+<Tags>
+	<OpenTiles/>
+</Tags>
+
+<SpriteComponent>
+	<Sprite FilePath="../Data/Gfx/GroundTile.png"/>
+	<RenderPriority Value="4"/>
+</SpriteComponent>
+
+<PositionComponent/>

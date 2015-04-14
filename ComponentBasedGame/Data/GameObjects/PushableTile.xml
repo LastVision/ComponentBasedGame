@@ -1,0 +1,28 @@
+<Tags>
+	<PushableTiles/>
+</Tags>
+
+<SpriteComponent>
+	<Sprite FilePath="../Data/Gfx/PushableTile.png"/>
+	<RenderPriority Value="2"/>
+</SpriteComponent>
+
+<PhysicsComponent>
+	<Friction Value="0.5"/>
+</PhysicsComponent>
+
+<PositionComponent/>
+
+<RigidBodyComponent>
+	<Static Value="false"/>
+	<IsPushable Value="true"/>
+	
+	<TargetCollisionGroup ID="Tiles"/>
+	<TargetCollisionGroup ID="Player"/>
+	<TargetCollisionGroup ID="PushableTiles"/>
+	
+	<RectangleCollider>
+		<Position X="2" Y="2"/>
+		<Size Width="28" Height="28"/>
+	</RectangleCollider>
+</RigidBodyComponent>

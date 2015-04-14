@@ -1,0 +1,25 @@
+TEST
+Line: 12
+File: main
+Msg: X: 5 Y: 10
+
+Line: 17
+File: main
+Msg: fX: 50.341999 dY: 1766090552
+
+Assert at:
+File: c:\dropbox\thegameassembly\c++ projects\commonutilities\commonutilities\dl_debug\source.cpp
+Line: 21
+Function: main
+Msg: This assert did fail
+CallStack:
+c:\dropbox\thegameassembly\c++ projects\commonutilities\commonutilities\dl_debug\dl_debug.cpp (86): DL_Debug::Debug::AssertMessage
+c:\dropbox\thegameassembly\c++ projects\commonutilities\commonutilities\dl_debug\source.cpp (23): main
+f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c (626): __tmainCRTStartup
+f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c (466): mainCRTStartup
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 7511919F)
+7511919F (KERNEL32): (filename not available): BaseThreadInitThunk
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 77590BBB)
+77590BBB (ntdll): (filename not available): RtlInitializeExceptionChain
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 77590B91)
+77590B91 (ntdll): (filename not available): RtlInitializeExceptionChain

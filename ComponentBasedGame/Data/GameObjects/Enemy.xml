@@ -1,0 +1,34 @@
+<Tags>
+	<Enemy/>
+</Tags>
+
+<SpriteComponent>
+	<Sprite FilePath="../Data/Gfx/Enemy.png"/>
+	<RenderPriority Value="1"/>
+</SpriteComponent>
+
+<PhysicsComponent/>
+
+<EnemyAIComponent/>
+
+<TargetingComponent>
+	<Range Value="200"/>
+	<Target Tag="Player"/>
+	<Target Tag="PushableTiles"/>
+</TargetingComponent>
+
+<PositionComponent>
+	<StartPosition X="100" Y="100"/>
+</PositionComponent>
+
+<EnemyRigidBodyComponent>
+	<Static Value="false"/>
+	<TargetCollisionGroup ID="Player"/>
+	<TargetCollisionGroup ID="Tiles"/>
+
+	
+	<RectangleCollider>
+		<Position X="0" Y="0"/>
+		<Size Width="32" Height="32"/>
+	</RectangleCollider>
+</EnemyRigidBodyComponent>

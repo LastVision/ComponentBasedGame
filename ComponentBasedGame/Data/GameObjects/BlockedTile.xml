@@ -1,0 +1,30 @@
+<Tags>
+	<Tiles/>
+</Tags>
+
+<SpriteComponent>
+	<Sprite FilePath="../Data/Gfx/BlockedTile.png"/>
+	<RenderPriority Value="3"/>
+</SpriteComponent>
+
+<PhysicsComponent/>
+
+<PositionComponent/>
+
+<RigidBodyComponent>
+	<Static Value="false"/>
+	<TargetCollisionGroup ID="Enemy"/>
+	<TargetCollisionGroup ID="Tiles"/>
+	<TargetCollisionGroup ID="PushableTiles"/>
+	<TargetCollisionGroup ID="Player"/>
+	
+	<RectangleCollider>
+		<Position X="0" Y="0"/>
+		<Size Width="32" Height="32"/>
+	</RectangleCollider>
+</RigidBodyComponent>
+
+<TargetingComponent>
+	<Range Value="200"/>
+	<Target Tag="Player"/>
+</TargetingComponent>

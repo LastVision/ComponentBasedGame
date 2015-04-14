@@ -1,0 +1,5 @@
+<CollisionGroups>
+	<Tiles/>
+	<Player/>
+	<Enemy/>
+</CollisionGroups>

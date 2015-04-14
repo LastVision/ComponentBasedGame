@@ -1,0 +1,4 @@
+<GameObject Path="../Data/GameObjects/Player.xml"/>
+<GameObject Path="../Data/GameObjects/Enemy.xml"/>
+<GameObject Path="../Data/GameObjects/OpenTile.xml"/>
+<GameObject Path="../Data/GameObjects/BlockedTile.xml"/>

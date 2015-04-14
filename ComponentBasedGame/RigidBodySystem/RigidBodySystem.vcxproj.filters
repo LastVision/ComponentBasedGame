@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ColliderFactory.cpp" />
+    <ClCompile Include="RigidBody.cpp" />
+    <ClCompile Include="ICollider.cpp">
+      <Filter>Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleCollider.cpp">
+      <Filter>Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCollider.cpp">
+      <Filter>Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsWorld.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ColliderFactory.h" />
+    <ClInclude Include="RigidBody.h" />
+    <ClInclude Include="ICollider.h">
+      <Filter>Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleCollider.h">
+      <Filter>Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCollider.h">
+      <Filter>Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsWorld.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Colliders">
+      <UniqueIdentifier>{5f0f7c6b-a6a3-4565-a77b-311b36e8b690}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
